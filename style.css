@@ -1,0 +1,29 @@
+.p-0{
+    padding: 0;
+}
+.m-0{
+    margin: 0;
+}
+.br{
+    border: solid red;
+}
+body{
+    background-image: url('bg.jpg');
+}
+.navigation-list{
+    list-style: none;
+    display: flex;
+    background-color: #162c44;
+    padding: 10px;
+}
+.nav-list-item{
+    margin: 8.5px;
+    
+}
+.nav-list-item a{
+    text-decoration: none;
+    color: #89c1d8;
+}
+.nav-list-item a:hover{
+    background-color: white;
+}
