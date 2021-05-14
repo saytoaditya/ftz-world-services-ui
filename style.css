@@ -163,7 +163,7 @@ display: inline-block;
         border-image: linear-gradient(rgba(8, 18, 28, 0), rgb(87, 94, 105)) 1;
 }
 
-.featuresbox{
+.features-box{
     color: white;
     font-weight: lighter;
     margin: 10px;
@@ -171,10 +171,17 @@ display: inline-block;
 
 
 }
-.features-img{
+.features-box img{
+    width: 100%;
+    height: 130px;
+}
+.features-box p{
+    margin: 10px 0;
+}
+.whats-ftz-img{
     filter:contrast(200%) brightness(250%);
 }
-.featuresbox a{
+.features-box a{
     color: #94bcd6;
     margin: 7px;
 }
