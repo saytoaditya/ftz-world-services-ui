@@ -126,7 +126,8 @@ display: inline-block;
     border-radius: 7%;
 }
 
-.navigation-link li::after {
+.navigation-link li:not(:last-child)::after {
+    color: white;
     content: "|";
   }
 
