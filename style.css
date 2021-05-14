@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
 }
-.list-style
-{
+li{
     list-style: none;
 }
+
 .p-0{
     padding: 0;
 }
@@ -60,10 +60,7 @@ body{
 
 .quick-links{
 display: flex;
-box-sizing: border-box;
 height: 27px;
-border: solid green 1px;;
-
 }
 /* .quick-links li{
     list-style: none; use in default section
@@ -97,13 +94,11 @@ display: inline-block;
     border-color:  #385b89;
     display: flex;
     justify-content: space-between;
-    height: 68px;
+    height: 65px;
    
 }
 
-.logo-container{
-     border: solid green 1px;
-}
+
 .logo{
     position: relative;
     bottom: 45px;
@@ -112,7 +107,7 @@ display: inline-block;
 .navigation-link{
     display: flex;
     /* list-style: none; */
-    margin: 5px;
+    margin: 13px;
 }
 
 
