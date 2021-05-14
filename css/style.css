@@ -33,7 +33,9 @@ li{
     justify-content: flex-end;
 }
 body{
-    background-image: url('bg.jpg');
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 
