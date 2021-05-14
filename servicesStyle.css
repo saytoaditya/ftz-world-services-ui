@@ -1,0 +1,75 @@
+/*-------------------------default setup----*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------------------------Common Classes----------------------------------*/
+a{
+    text-decoration: underline;
+    color: #85a3ba;
+}
+
+.list-style
+{
+    list-style: none;
+}
+.br{
+    border: solid red;
+}
+.cbr{
+    border: solid cyan;
+}
+.to-uppercase
+{
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url('bg.jpg');
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    color: black;
+    background-size: cover;
+}
+
+/* --------------------------------------------------header------------------------------------------ */
+
+
+.services-container
+{
+    
+    background-color: rgba(8, 18, 28, 0.8);
+}
+
+.services-heading{
+    color: #85a3ba;
+    margin-top: 35px;
+}
+
+
+
+.color-white{
+    color:white;
+}
+
+.gradient-border{
+    border-image: linear-gradient(rgba(8, 18, 28, 0), rgb(87, 94, 105)) 1  !important;
+}
+.border-color
+{
+    border-color: #32465e !important;
+}
+.btn{
+    background-image: linear-gradient(#145c76, #2a4b7b,#03283c);
+}
+
+.servicehelp{
+    background-color: #10223a  !important;
+}
+
+

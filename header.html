@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+    background-color: #162c45;
+    box-sizing: border-box;
+    height: 68px;
+}
+
+.navbar-inside{
+    
+}
+
+.logo{
+    position: relative;
+    bottom: 30px;
+}
+
+.nav-links{
+    
+}
+
+
+.nav-links li a{
+    color: #89adc2 !important;
+}
+a::after {
+    content: "|";
+    margin-left: 16px;
+  }
+.nav-links li a:hover{
+    background-color: #52637a !important;  
+    color: white !important; 
+    border-radius: 7%;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    nav{
+        height: 100%;
+    }
+    .header-container{
+        /* overflow: auto; */
+        height: 100%;
+    }
+    .xyz{
+        border: solid red 1px;
+        width: 100vw !important;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div class="header-container br">
+        <div class="container header cbr  mt-5 p-0 mb-5">
+           
+                <img class="logo " src="logo.png" alt="logo">
+           
+            <nav class="d-inline-block navbar navbar-style  navbar-expand-lg navbar-light cbr">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse xyz  navbar-inside"  id="navbarNav">
+                       
+                        <ul class="navbar-nav nav-links   ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link to-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link to-uppercase" href="#">About Ftzws</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link to-uppercase" href="#">Our Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link to-uppercase" href="#">Our Clients</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link to-uppercase" href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                    </div>
+             </nav>
+        </div>
+       </div>
+</body>
+</html>
